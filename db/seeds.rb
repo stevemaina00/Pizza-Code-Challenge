@@ -16,7 +16,7 @@ restaurant1 = Restaurant.create(name: "Dominos",address: "sixth street, Eldoret"
 restaurant2 = Restaurant.create(name: "Mamo italiano",  address: "Garden city, kasarani")
 #pizza data
 pizza1 = Pizza.create(name: "Hawaiian",ingredients: "Macon, pineapple")
-pizza2 = Pizza.create(name: "Margherita",ingredients: "Tomato, cheese")
+pizza2 = Pizza.create(name: "Margherita",ingredients: "Tomatoes, cheese")
 
 #restauarant_pizza data
 RestaurantPizza.create(restaurant_id: restaurant1.id, pizza_id: pizza1.id, price: 10)
